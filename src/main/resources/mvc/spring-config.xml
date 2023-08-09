@@ -6,4 +6,7 @@
 
     <!--组件扫描 todo filter 过滤掉controller-->
     <context:component-scan base-package="org.llz.spring"/>
+
+    <bean id="teacher" class="org.llz.spring.bean.Teacher"></bean>
+
 </beans>
