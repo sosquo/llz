@@ -7,6 +7,10 @@
     <!--组件扫描 todo filter 过滤掉controller-->
     <context:component-scan base-package="org.llz.spring"/>
 
-    <bean id="teacher" class="org.llz.spring.bean.Teacher"></bean>
+    <bean id="teacher" class="org.llz.spring.bean.Teacher">
+        <constructor-arg name="t_id" value="1"></constructor-arg>
+        <constructor-arg name="t_name" value="大圣"></constructor-arg>
+        <property name="t_name" value="疯了吧"></property>
+    </bean>
 
 </beans>

@@ -1,6 +1,9 @@
 package org.llz.spring.controller;
 
+import org.llz.spring.bean.Teacher;
 import org.llz.spring.bean.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -15,6 +18,8 @@ import java.util.List;
 @Controller
 public class GetJsonController {
 
+    @Autowired
+    ApplicationContext applicationContext;
     @RequestMapping(value = "/getJson", produces = "application/json; charset=utf-8")
     @ResponseBody
     public User getJson() {
@@ -25,6 +30,8 @@ public class GetJsonController {
         user.setTelephone("15889895678");
         user.setRegisterTime(new Date());
         user.setPopedom(1);
+        Teacher teacher = applicationContext.getBean(Teacher.class);
+        System.out.println("teacher = " + teacher);
         return user;
     }
 
