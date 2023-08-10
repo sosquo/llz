@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVCDemo01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.4" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.3.7" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:2.0.38" />
+          <element id="library" level="project" name="Maven: com.alibaba.fastjson2:fastjson2-extension:2.0.38" />
+          <element id="library" level="project" name="Maven: com.alibaba.fastjson2:fastjson2:2.0.38" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.7" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.7" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.7" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.5.3" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SpringMVCDemo01/web/Web" />
+    </root>
+  </artifact>
+</component>
